@@ -1,0 +1,352 @@
+{"level":"info","message":"Server running on port 3000","timestamp":"2025-03-05T15:02:03.196Z"}
+{"level":"info","message":"Server running on port 3000","timestamp":"2025-03-05T16:33:31.587Z"}
+{"level":"info","message":"Server running on port 3000","timestamp":"2025-03-05T16:59:04.358Z"}
+{"level":"info","message":"GET /","timestamp":"2025-03-05T17:01:53.822Z"}
+{"level":"info","message":"POST /api/auth/register","timestamp":"2025-03-05T17:09:25.189Z"}
+{"level":"error","message":"Error in AuthService.register: Failed to create user: Could not find the 'fullName' column of 'users' in the schema cache","timestamp":"2025-03-05T17:09:32.573Z"}
+{"level":"error","message":"Failed to create user: Could not find the 'fullName' column of 'users' in the schema cache - Error: Failed to create user: Could not find the 'fullName' column of 'users' in the schema cache\n    at AuthService.register (C:\\Users\\hp\\Documents\\C0D\\loffy-back\\src\\services\\authService.js:52:15)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async register (C:\\Users\\hp\\Documents\\C0D\\loffy-back\\src\\controllers\\authController.js:16:31)","timestamp":"2025-03-05T17:09:32.578Z"}
+{"level":"info","message":"Server running on port 3000","timestamp":"2025-03-05T17:20:37.449Z"}
+{"level":"info","message":"POST /api/auth/register","timestamp":"2025-03-05T17:20:46.541Z"}
+{"level":"error","message":"Error in AuthService.register: Failed to create user: Could not find the 'fullName' column of 'users' in the schema cache","timestamp":"2025-03-05T17:20:50.663Z"}
+{"level":"error","message":"Failed to create user: Could not find the 'fullName' column of 'users' in the schema cache - Error: Failed to create user: Could not find the 'fullName' column of 'users' in the schema cache\n    at AuthService.register (C:\\Users\\hp\\Documents\\C0D\\loffy-back\\src\\services\\authService.js:51:15)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async register (C:\\Users\\hp\\Documents\\C0D\\loffy-back\\src\\controllers\\authController.js:16:31)","timestamp":"2025-03-05T17:20:50.667Z"}
+{"level":"info","message":"POST /api/auth/register","timestamp":"2025-03-05T17:21:08.789Z"}
+{"level":"info","message":"POST /api/auth/register","timestamp":"2025-03-05T17:21:24.459Z"}
+{"level":"error","message":"Error in AuthService.register: Failed to create user: Could not find the 'fullName' column of 'users' in the schema cache","timestamp":"2025-03-05T17:21:27.137Z"}
+{"level":"error","message":"Failed to create user: Could not find the 'fullName' column of 'users' in the schema cache - Error: Failed to create user: Could not find the 'fullName' column of 'users' in the schema cache\n    at AuthService.register (C:\\Users\\hp\\Documents\\C0D\\loffy-back\\src\\services\\authService.js:51:15)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async register (C:\\Users\\hp\\Documents\\C0D\\loffy-back\\src\\controllers\\authController.js:16:31)","timestamp":"2025-03-05T17:21:27.141Z"}
+{"level":"info","message":"Server running on port 3000","timestamp":"2025-03-05T18:22:03.448Z"}
+{"level":"info","message":"POST /api/auth/register","timestamp":"2025-03-05T18:23:02.298Z"}
+{"level":"info","message":"POST /api/auth/register","timestamp":"2025-03-05T18:25:18.099Z"}
+{"level":"info","message":"GET /api/auth/login","timestamp":"2025-03-05T19:11:05.548Z"}
+{"level":"info","message":"GET /api/auth/login","timestamp":"2025-03-05T19:11:16.291Z"}
+{"level":"info","message":"POST /api/auth/login","timestamp":"2025-03-05T19:11:54.402Z"}
+{"level":"error","message":"Error in AuthService.login: Invalid email or password","timestamp":"2025-03-05T19:11:55.982Z"}
+{"level":"error","message":"Invalid email or password - Error: Invalid email or password\n    at AuthService.login (C:\\Users\\hp\\Documents\\C0D\\loffy-back\\src\\services\\authService.js:89:15)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async login (C:\\Users\\hp\\Documents\\C0D\\loffy-back\\src\\controllers\\authController.js:54:31)","timestamp":"2025-03-05T19:11:55.984Z"}
+{"level":"info","message":"POST /api/auth/login","timestamp":"2025-03-05T19:12:06.206Z"}
+{"level":"error","message":"Error in AuthService.login: Invalid email or password","timestamp":"2025-03-05T19:12:07.526Z"}
+{"level":"error","message":"Invalid email or password - Error: Invalid email or password\n    at AuthService.login (C:\\Users\\hp\\Documents\\C0D\\loffy-back\\src\\services\\authService.js:89:15)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async login (C:\\Users\\hp\\Documents\\C0D\\loffy-back\\src\\controllers\\authController.js:54:31)","timestamp":"2025-03-05T19:12:07.527Z"}
+{"level":"info","message":"POST /api/auth/login","timestamp":"2025-03-05T19:12:40.028Z"}
+{"level":"info","message":"Server running on port 3000","timestamp":"2025-03-05T19:51:35.508Z"}
+{"level":"info","message":"POST /api/auth/login","timestamp":"2025-03-05T19:52:22.108Z"}
+{"level":"info","message":"POST /api/coffees","timestamp":"2025-03-05T19:59:11.335Z"}
+{"level":"error","message":"Error in StorageService.uploadFile: Failed to upload file to coffee-images: Bucket not found","timestamp":"2025-03-05T19:59:16.385Z"}
+{"level":"error","message":"Error in CoffeeService.createCoffee: Failed to upload file to coffee-images: Bucket not found","timestamp":"2025-03-05T19:59:16.386Z"}
+{"level":"error","message":"Failed to upload file to coffee-images: Bucket not found - Error: Failed to upload file to coffee-images: Bucket not found\n    at StorageService.uploadFile (C:\\Users\\hp\\Documents\\C0D\\loffy-back\\src\\services\\storageService.js:16:15)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async CoffeeService.createCoffee (C:\\Users\\hp\\Documents\\C0D\\loffy-back\\src\\services\\coffeeService.js:36:24)\n    at async CoffeeController.createCoffee (C:\\Users\\hp\\Documents\\C0D\\loffy-back\\src\\controllers\\coffeeController.js:34:22)","timestamp":"2025-03-05T19:59:16.388Z"}
+{"level":"info","message":"POST /api/coffees","timestamp":"2025-03-05T20:01:58.130Z"}
+{"level":"error","message":"Error in StorageService.uploadFile: Failed to upload file to coffee-images: Bucket not found","timestamp":"2025-03-05T20:02:01.468Z"}
+{"level":"error","message":"Error in CoffeeService.createCoffee: Failed to upload file to coffee-images: Bucket not found","timestamp":"2025-03-05T20:02:01.469Z"}
+{"level":"error","message":"Failed to upload file to coffee-images: Bucket not found - Error: Failed to upload file to coffee-images: Bucket not found\n    at StorageService.uploadFile (C:\\Users\\hp\\Documents\\C0D\\loffy-back\\src\\services\\storageService.js:16:15)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async CoffeeService.createCoffee (C:\\Users\\hp\\Documents\\C0D\\loffy-back\\src\\services\\coffeeService.js:36:24)\n    at async CoffeeController.createCoffee (C:\\Users\\hp\\Documents\\C0D\\loffy-back\\src\\controllers\\coffeeController.js:34:22)","timestamp":"2025-03-05T20:02:01.471Z"}
+{"level":"info","message":"Server running on port 3000","timestamp":"2025-03-05T20:06:23.301Z"}
+{"level":"info","message":"POST /api/coffees","timestamp":"2025-03-05T20:06:41.732Z"}
+{"level":"error","message":"Error in StorageService.uploadFile: Failed to upload file to coffee-images: new row violates row-level security policy","timestamp":"2025-03-05T20:06:44.340Z"}
+{"level":"error","message":"Error in CoffeeService.createCoffee: Failed to upload file to coffee-images: new row violates row-level security policy","timestamp":"2025-03-05T20:06:44.341Z"}
+{"level":"error","message":"Failed to upload file to coffee-images: new row violates row-level security policy - Error: Failed to upload file to coffee-images: new row violates row-level security policy\n    at StorageService.uploadFile (C:\\Users\\hp\\Documents\\C0D\\loffy-back\\src\\services\\storageService.js:15:15)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async CoffeeService.createCoffee (C:\\Users\\hp\\Documents\\C0D\\loffy-back\\src\\services\\coffeeService.js:36:24)\n    at async CoffeeController.createCoffee (C:\\Users\\hp\\Documents\\C0D\\loffy-back\\src\\controllers\\coffeeController.js:34:22)","timestamp":"2025-03-05T20:06:44.342Z"}
+{"level":"info","message":"POST /api/coffees","timestamp":"2025-03-05T20:11:34.326Z"}
+{"level":"error","message":"Error in StorageService.uploadFile: Failed to upload file to coffee-images: new row violates row-level security policy","timestamp":"2025-03-05T20:11:38.085Z"}
+{"level":"error","message":"Error in CoffeeService.createCoffee: Failed to upload file to coffee-images: new row violates row-level security policy","timestamp":"2025-03-05T20:11:38.085Z"}
+{"level":"error","message":"Failed to upload file to coffee-images: new row violates row-level security policy - Error: Failed to upload file to coffee-images: new row violates row-level security policy\n    at StorageService.uploadFile (C:\\Users\\hp\\Documents\\C0D\\loffy-back\\src\\services\\storageService.js:15:15)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async CoffeeService.createCoffee (C:\\Users\\hp\\Documents\\C0D\\loffy-back\\src\\services\\coffeeService.js:36:24)\n    at async CoffeeController.createCoffee (C:\\Users\\hp\\Documents\\C0D\\loffy-back\\src\\controllers\\coffeeController.js:34:22)","timestamp":"2025-03-05T20:11:38.086Z"}
+{"level":"info","message":"POST /api/coffees","timestamp":"2025-03-05T20:25:44.642Z"}
+{"level":"error","message":"Error in StorageService.uploadFile: Failed to upload file to coffee-images: new row violates row-level security policy","timestamp":"2025-03-05T20:25:46.097Z"}
+{"level":"error","message":"Error in CoffeeService.createCoffee: Failed to upload file to coffee-images: new row violates row-level security policy","timestamp":"2025-03-05T20:25:46.098Z"}
+{"level":"error","message":"Failed to upload file to coffee-images: new row violates row-level security policy - Error: Failed to upload file to coffee-images: new row violates row-level security policy\n    at StorageService.uploadFile (C:\\Users\\hp\\Documents\\C0D\\loffy-back\\src\\services\\storageService.js:15:15)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async CoffeeService.createCoffee (C:\\Users\\hp\\Documents\\C0D\\loffy-back\\src\\services\\coffeeService.js:36:24)\n    at async CoffeeController.createCoffee (C:\\Users\\hp\\Documents\\C0D\\loffy-back\\src\\controllers\\coffeeController.js:34:22)","timestamp":"2025-03-05T20:25:46.099Z"}
+{"level":"info","message":"Server running on port 3000","timestamp":"2025-03-05T20:35:52.349Z"}
+{"level":"info","message":"POST /api/coffees","timestamp":"2025-03-05T20:35:57.036Z"}
+{"level":"error","message":"Error in StorageService.uploadFile: Failed to upload file to coffee-images: invalid signature","timestamp":"2025-03-05T20:35:59.305Z"}
+{"level":"error","message":"Error in CoffeeService.createCoffee: Failed to upload file to coffee-images: invalid signature","timestamp":"2025-03-05T20:35:59.306Z"}
+{"level":"error","message":"Failed to upload file to coffee-images: invalid signature - Error: Failed to upload file to coffee-images: invalid signature\n    at StorageService.uploadFile (C:\\Users\\hp\\Documents\\C0D\\loffy-back\\src\\services\\storageService.js:14:15)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async CoffeeService.createCoffee (C:\\Users\\hp\\Documents\\C0D\\loffy-back\\src\\services\\coffeeService.js:36:24)\n    at async CoffeeController.createCoffee (C:\\Users\\hp\\Documents\\C0D\\loffy-back\\src\\controllers\\coffeeController.js:52:22)","timestamp":"2025-03-05T20:35:59.307Z"}
+{"level":"info","message":"POST /api/auth/login","timestamp":"2025-03-05T20:36:36.961Z"}
+{"level":"info","message":"POST /api/coffees","timestamp":"2025-03-05T20:37:04.853Z"}
+{"level":"error","message":"Error in StorageService.uploadFile: Failed to upload file to coffee-images: invalid signature","timestamp":"2025-03-05T20:37:06.640Z"}
+{"level":"error","message":"Error in CoffeeService.createCoffee: Failed to upload file to coffee-images: invalid signature","timestamp":"2025-03-05T20:37:06.641Z"}
+{"level":"error","message":"Failed to upload file to coffee-images: invalid signature - Error: Failed to upload file to coffee-images: invalid signature\n    at StorageService.uploadFile (C:\\Users\\hp\\Documents\\C0D\\loffy-back\\src\\services\\storageService.js:14:15)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async CoffeeService.createCoffee (C:\\Users\\hp\\Documents\\C0D\\loffy-back\\src\\services\\coffeeService.js:36:24)\n    at async CoffeeController.createCoffee (C:\\Users\\hp\\Documents\\C0D\\loffy-back\\src\\controllers\\coffeeController.js:52:22)","timestamp":"2025-03-05T20:37:06.643Z"}
+{"level":"info","message":"Server running on port 3000","timestamp":"2025-03-05T20:41:09.449Z"}
+{"level":"info","message":"POST /api/coffees","timestamp":"2025-03-05T20:41:13.813Z"}
+{"level":"error","message":"Error in authMiddleware: invalid signature","timestamp":"2025-03-05T20:41:13.817Z"}
+{"level":"info","message":"POST /api/auth/login","timestamp":"2025-03-05T20:41:21.521Z"}
+{"level":"info","message":"POST /api/coffees","timestamp":"2025-03-05T20:41:47.539Z"}
+{"level":"error","message":"Error in StorageService.uploadFile: Failed to upload file to coffee-images: Internal Server Error","timestamp":"2025-03-05T20:41:48.776Z"}
+{"level":"error","message":"Error in CoffeeService.createCoffee: Failed to upload file to coffee-images: Internal Server Error","timestamp":"2025-03-05T20:41:48.778Z"}
+{"level":"error","message":"Failed to upload file to coffee-images: Internal Server Error - Error: Failed to upload file to coffee-images: Internal Server Error\n    at StorageService.uploadFile (C:\\Users\\hp\\Documents\\C0D\\loffy-back\\src\\services\\storageService.js:14:15)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async CoffeeService.createCoffee (C:\\Users\\hp\\Documents\\C0D\\loffy-back\\src\\services\\coffeeService.js:36:24)\n    at async CoffeeController.createCoffee (C:\\Users\\hp\\Documents\\C0D\\loffy-back\\src\\controllers\\coffeeController.js:52:22)","timestamp":"2025-03-05T20:41:48.781Z"}
+{"level":"info","message":"POST /api/coffees","timestamp":"2025-03-05T20:41:57.945Z"}
+{"level":"error","message":"Error in StorageService.uploadFile: Failed to upload file to coffee-images: Internal Server Error","timestamp":"2025-03-05T20:42:00.797Z"}
+{"level":"error","message":"Error in CoffeeService.createCoffee: Failed to upload file to coffee-images: Internal Server Error","timestamp":"2025-03-05T20:42:00.798Z"}
+{"level":"error","message":"Failed to upload file to coffee-images: Internal Server Error - Error: Failed to upload file to coffee-images: Internal Server Error\n    at StorageService.uploadFile (C:\\Users\\hp\\Documents\\C0D\\loffy-back\\src\\services\\storageService.js:14:15)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async CoffeeService.createCoffee (C:\\Users\\hp\\Documents\\C0D\\loffy-back\\src\\services\\coffeeService.js:36:24)\n    at async CoffeeController.createCoffee (C:\\Users\\hp\\Documents\\C0D\\loffy-back\\src\\controllers\\coffeeController.js:52:22)","timestamp":"2025-03-05T20:42:00.799Z"}
+{"level":"info","message":"Server running on port 3000","timestamp":"2025-03-05T20:43:44.052Z"}
+{"level":"info","message":"POST /api/coffees","timestamp":"2025-03-05T20:43:48.680Z"}
+{"level":"error","message":"Error in StorageService.uploadFile: Failed to upload file to coffee-images: Internal Server Error","timestamp":"2025-03-05T20:43:55.244Z"}
+{"level":"error","message":"Error in CoffeeService.createCoffee: Failed to upload file to coffee-images: Internal Server Error","timestamp":"2025-03-05T20:43:55.245Z"}
+{"level":"error","message":"Failed to upload file to coffee-images: Internal Server Error - Error: Failed to upload file to coffee-images: Internal Server Error\n    at StorageService.uploadFile (C:\\Users\\hp\\Documents\\C0D\\loffy-back\\src\\services\\storageService.js:14:15)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async CoffeeService.createCoffee (C:\\Users\\hp\\Documents\\C0D\\loffy-back\\src\\services\\coffeeService.js:36:24)\n    at async CoffeeController.createCoffee (C:\\Users\\hp\\Documents\\C0D\\loffy-back\\src\\controllers\\coffeeController.js:66:22)","timestamp":"2025-03-05T20:43:55.248Z"}
+{"level":"info","message":"Server running on port 3000","timestamp":"2025-03-05T20:54:16.904Z"}
+{"level":"info","message":"POST /api/auth/login","timestamp":"2025-03-05T20:54:26.046Z"}
+{"level":"info","message":"Server running on port 3000","timestamp":"2025-03-05T20:58:43.346Z"}
+{"level":"info","message":"POST /api/auth/login","timestamp":"2025-03-05T20:58:54.680Z"}
+{"level":"info","message":"Server running on port 3000","timestamp":"2025-03-05T20:59:30.199Z"}
+{"level":"info","message":"Server running on port 3000","timestamp":"2025-03-05T21:06:44.118Z"}
+{"level":"info","message":"POST /api/auth/login","timestamp":"2025-03-05T21:06:48.430Z"}
+{"level":"info","message":"POST /api/coffees","timestamp":"2025-03-05T21:18:49.549Z"}
+{"level":"error","message":"Error in StorageService.uploadFile: Failed to upload file to coffee-images: mime type text/plain;charset=UTF-8 is not supported","timestamp":"2025-03-05T21:18:50.868Z"}
+{"level":"error","message":"Error in CoffeeService.createCoffee: Failed to upload file to coffee-images: mime type text/plain;charset=UTF-8 is not supported","timestamp":"2025-03-05T21:18:50.869Z"}
+{"level":"error","message":"Failed to upload file to coffee-images: mime type text/plain;charset=UTF-8 is not supported - Error: Failed to upload file to coffee-images: mime type text/plain;charset=UTF-8 is not supported\n    at StorageService.uploadFile (C:\\Users\\hp\\Documents\\C0D\\loffy-back\\src\\services\\storageService.js:14:15)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async CoffeeService.createCoffee (C:\\Users\\hp\\Documents\\C0D\\loffy-back\\src\\services\\coffeeService.js:36:24)\n    at async CoffeeController.createCoffee (C:\\Users\\hp\\Documents\\C0D\\loffy-back\\src\\controllers\\coffeeController.js:66:22)","timestamp":"2025-03-05T21:18:50.871Z"}
+{"level":"info","message":"POST /api/coffees","timestamp":"2025-03-05T21:19:36.437Z"}
+{"level":"error","message":"Error in StorageService.uploadFile: Failed to upload file to coffee-images: mime type text/plain;charset=UTF-8 is not supported","timestamp":"2025-03-05T21:19:38.133Z"}
+{"level":"error","message":"Error in CoffeeService.createCoffee: Failed to upload file to coffee-images: mime type text/plain;charset=UTF-8 is not supported","timestamp":"2025-03-05T21:19:38.135Z"}
+{"level":"error","message":"Failed to upload file to coffee-images: mime type text/plain;charset=UTF-8 is not supported - Error: Failed to upload file to coffee-images: mime type text/plain;charset=UTF-8 is not supported\n    at StorageService.uploadFile (C:\\Users\\hp\\Documents\\C0D\\loffy-back\\src\\services\\storageService.js:14:15)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async CoffeeService.createCoffee (C:\\Users\\hp\\Documents\\C0D\\loffy-back\\src\\services\\coffeeService.js:36:24)\n    at async CoffeeController.createCoffee (C:\\Users\\hp\\Documents\\C0D\\loffy-back\\src\\controllers\\coffeeController.js:66:22)","timestamp":"2025-03-05T21:19:38.136Z"}
+{"level":"info","message":"Server running on port 3000","timestamp":"2025-03-06T11:19:02.354Z"}
+{"level":"info","message":"POST /api/auth/login","timestamp":"2025-03-06T11:19:07.409Z"}
+{"level":"info","message":"POST /api/coffees","timestamp":"2025-03-06T11:36:23.877Z"}
+{"level":"error","message":"Error in StorageService.uploadFile: Failed to upload file to coffee-images: mime type text/plain;charset=UTF-8 is not supported","timestamp":"2025-03-06T11:36:25.601Z"}
+{"level":"error","message":"Error in CoffeeService.createCoffee: Failed to upload file to coffee-images: mime type text/plain;charset=UTF-8 is not supported","timestamp":"2025-03-06T11:36:25.603Z"}
+{"level":"error","message":"Failed to upload file to coffee-images: mime type text/plain;charset=UTF-8 is not supported - Error: Failed to upload file to coffee-images: mime type text/plain;charset=UTF-8 is not supported\n    at StorageService.uploadFile (C:\\Users\\hp\\Documents\\C0D\\loffy-back\\src\\services\\storageService.js:14:15)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async CoffeeService.createCoffee (C:\\Users\\hp\\Documents\\C0D\\loffy-back\\src\\services\\coffeeService.js:36:24)\n    at async CoffeeController.createCoffee (C:\\Users\\hp\\Documents\\C0D\\loffy-back\\src\\controllers\\coffeeController.js:66:22)","timestamp":"2025-03-06T11:36:25.607Z"}
+{"level":"info","message":"POST /api/auth/login","timestamp":"2025-03-06T11:57:49.918Z"}
+{"level":"info","message":"POST /api/auth/login","timestamp":"2025-03-06T12:09:24.632Z"}
+{"level":"info","message":"Server running on port 3000","timestamp":"2025-03-06T12:20:14.059Z"}
+{"level":"info","message":"POST /api/auth/login","timestamp":"2025-03-06T12:20:21.758Z"}
+{"level":"info","message":"POST /api/coffees","timestamp":"2025-03-06T12:21:29.185Z"}
+{"level":"info","message":"Uploading file to coffees/1741263689204.png, buffer size: 71088 bytes, MIME type: image/png","timestamp":"2025-03-06T12:21:29.204Z"}
+{"level":"error","message":"Error in StorageService.uploadFile: Failed to upload file to coffee-images: Internal Server Error","timestamp":"2025-03-06T12:21:31.351Z"}
+{"level":"error","message":"Error in CoffeeService.createCoffee: Failed to upload file to coffee-images: Internal Server Error","timestamp":"2025-03-06T12:21:31.352Z"}
+{"level":"error","message":"Failed to upload file to coffee-images: Internal Server Error - Error: Failed to upload file to coffee-images: Internal Server Error\n    at StorageService.uploadFile (C:\\Users\\hp\\Documents\\C0D\\loffy-back\\src\\services\\storageService.js:15:15)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async CoffeeService.createCoffee (C:\\Users\\hp\\Documents\\C0D\\loffy-back\\src\\services\\coffeeService.js:48:24)\n    at async CoffeeController.createCoffee (C:\\Users\\hp\\Documents\\C0D\\loffy-back\\src\\controllers\\coffeeController.js:68:22)","timestamp":"2025-03-06T12:21:31.356Z"}
+{"level":"info","message":"POST /api/coffees","timestamp":"2025-03-06T12:23:40.075Z"}
+{"level":"info","message":"Uploading file to coffees/1741263820114.png, buffer size: 71088 bytes, MIME type: image/png","timestamp":"2025-03-06T12:23:40.114Z"}
+{"level":"error","message":"Error in StorageService.uploadFile: Failed to upload file to coffee-images: Internal Server Error","timestamp":"2025-03-06T12:23:43.453Z"}
+{"level":"error","message":"Error in CoffeeService.createCoffee: Failed to upload file to coffee-images: Internal Server Error","timestamp":"2025-03-06T12:23:43.455Z"}
+{"level":"error","message":"Failed to upload file to coffee-images: Internal Server Error - Error: Failed to upload file to coffee-images: Internal Server Error\n    at StorageService.uploadFile (C:\\Users\\hp\\Documents\\C0D\\loffy-back\\src\\services\\storageService.js:15:15)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async CoffeeService.createCoffee (C:\\Users\\hp\\Documents\\C0D\\loffy-back\\src\\services\\coffeeService.js:48:24)\n    at async CoffeeController.createCoffee (C:\\Users\\hp\\Documents\\C0D\\loffy-back\\src\\controllers\\coffeeController.js:68:22)","timestamp":"2025-03-06T12:23:43.457Z"}
+{"level":"info","message":"POST /api/coffees","timestamp":"2025-03-06T12:24:36.652Z"}
+{"level":"info","message":"Uploading file to coffees/1741263876662.png, buffer size: 71088 bytes, MIME type: image/png","timestamp":"2025-03-06T12:24:36.663Z"}
+{"level":"error","message":"Error in StorageService.uploadFile: Failed to upload file to coffee-images: Internal Server Error","timestamp":"2025-03-06T12:24:39.665Z"}
+{"level":"error","message":"Error in CoffeeService.createCoffee: Failed to upload file to coffee-images: Internal Server Error","timestamp":"2025-03-06T12:24:39.667Z"}
+{"level":"error","message":"Failed to upload file to coffee-images: Internal Server Error - Error: Failed to upload file to coffee-images: Internal Server Error\n    at StorageService.uploadFile (C:\\Users\\hp\\Documents\\C0D\\loffy-back\\src\\services\\storageService.js:15:15)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async CoffeeService.createCoffee (C:\\Users\\hp\\Documents\\C0D\\loffy-back\\src\\services\\coffeeService.js:48:24)\n    at async CoffeeController.createCoffee (C:\\Users\\hp\\Documents\\C0D\\loffy-back\\src\\controllers\\coffeeController.js:68:22)","timestamp":"2025-03-06T12:24:39.669Z"}
+{"level":"info","message":"Server running on port 3000","timestamp":"2025-03-06T12:42:06.467Z"}
+{"level":"info","message":"POST /api/auth/login","timestamp":"2025-03-06T12:42:12.874Z"}
+{"level":"error","message":"Error in AuthService.login: Cannot read properties of undefined (reading 'from')","timestamp":"2025-03-06T12:42:12.876Z"}
+{"level":"error","message":"Cannot read properties of undefined (reading 'from') - TypeError: Cannot read properties of undefined (reading 'from')\n    at AuthService.login (C:\\Users\\hp\\Documents\\C0D\\loffy-back\\src\\services\\authService.js:85:10)\n    at login (C:\\Users\\hp\\Documents\\C0D\\loffy-back\\src\\controllers\\authController.js:56:49)\n    at Layer.handle [as handle_request] (C:\\Users\\hp\\Documents\\C0D\\loffy-back\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at next (C:\\Users\\hp\\Documents\\C0D\\loffy-back\\node_modules\\express\\lib\\router\\route.js:149:13)\n    at Route.dispatch (C:\\Users\\hp\\Documents\\C0D\\loffy-back\\node_modules\\express\\lib\\router\\route.js:119:3)\n    at Layer.handle [as handle_request] (C:\\Users\\hp\\Documents\\C0D\\loffy-back\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at C:\\Users\\hp\\Documents\\C0D\\loffy-back\\node_modules\\express\\lib\\router\\index.js:284:15\n    at Function.process_params (C:\\Users\\hp\\Documents\\C0D\\loffy-back\\node_modules\\express\\lib\\router\\index.js:346:12)\n    at next (C:\\Users\\hp\\Documents\\C0D\\loffy-back\\node_modules\\express\\lib\\router\\index.js:280:10)\n    at Function.handle (C:\\Users\\hp\\Documents\\C0D\\loffy-back\\node_modules\\express\\lib\\router\\index.js:175:3)","timestamp":"2025-03-06T12:42:12.879Z"}
+{"level":"info","message":"Server running on port 3000","timestamp":"2025-03-06T12:46:50.066Z"}
+{"level":"info","message":"POST /api/auth/login","timestamp":"2025-03-06T12:46:55.303Z"}
+{"level":"info","message":"POST /api/coffees","timestamp":"2025-03-06T12:47:21.839Z"}
+{"level":"info","message":"Uploading file to coffees/1741265241876.png, buffer size: 71088 bytes, MIME type: image/png","timestamp":"2025-03-06T12:47:21.877Z"}
+{"level":"error","message":"Error in StorageService.uploadFile: Failed to upload file to coffee-images: new row violates row-level security policy","timestamp":"2025-03-06T12:47:23.660Z"}
+{"level":"error","message":"Error in CoffeeService.createCoffee: Failed to upload file to coffee-images: new row violates row-level security policy","timestamp":"2025-03-06T12:47:23.662Z"}
+{"level":"error","message":"Failed to upload file to coffee-images: new row violates row-level security policy - Error: Failed to upload file to coffee-images: new row violates row-level security policy\n    at StorageService.uploadFile (C:\\Users\\hp\\Documents\\C0D\\loffy-back\\src\\services\\storageService.js:15:15)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async CoffeeService.createCoffee (C:\\Users\\hp\\Documents\\C0D\\loffy-back\\src\\services\\coffeeService.js:48:24)\n    at async CoffeeController.createCoffee (C:\\Users\\hp\\Documents\\C0D\\loffy-back\\src\\controllers\\coffeeController.js:37:22)","timestamp":"2025-03-06T12:47:23.666Z"}
+{"level":"info","message":"POST /api/coffees","timestamp":"2025-03-06T12:50:48.264Z"}
+{"level":"info","message":"Uploading file to coffees/1741265448275.png, buffer size: 71088 bytes, MIME type: image/png","timestamp":"2025-03-06T12:50:48.275Z"}
+{"level":"info","message":"POST /api/auth/register","timestamp":"2025-03-06T12:51:31.123Z"}
+{"level":"info","message":"POST /api/coffees","timestamp":"2025-03-06T12:52:23.625Z"}
+{"level":"error","message":"Error in authMiddleware: jwt malformed","timestamp":"2025-03-06T12:52:23.627Z"}
+{"level":"info","message":"POST /api/coffees","timestamp":"2025-03-06T12:52:58.359Z"}
+{"level":"info","message":"Uploading file to coffees/1741265578366.png, buffer size: 71088 bytes, MIME type: image/png","timestamp":"2025-03-06T12:52:58.366Z"}
+{"level":"info","message":"POST /api/auth/login","timestamp":"2025-03-06T12:54:09.099Z"}
+{"level":"info","message":"POST /api/coffees","timestamp":"2025-03-06T12:54:35.746Z"}
+{"level":"info","message":"Server running on port 3000","timestamp":"2025-03-06T13:06:32.448Z"}
+{"level":"info","message":"POST /api/auth/login","timestamp":"2025-03-06T13:06:39.521Z"}
+{"level":"info","message":"POST /api/coffees","timestamp":"2025-03-06T13:07:18.477Z"}
+{"level":"info","message":"Uploading file to coffees/1741266438508.png, buffer size: 71088 bytes, MIME type: image/png","timestamp":"2025-03-06T13:07:18.508Z"}
+{"level":"info","message":"POST /api/auth/login","timestamp":"2025-03-06T13:08:46.432Z"}
+{"level":"info","message":"GET /api/cart","timestamp":"2025-03-06T13:10:12.855Z"}
+{"level":"info","message":"GET /api/cart","timestamp":"2025-03-06T13:10:21.760Z"}
+{"level":"info","message":"Server running on port 3000","timestamp":"2025-03-06T13:10:52.955Z"}
+{"level":"info","message":"GET /api/cart","timestamp":"2025-03-06T13:10:55.328Z"}
+{"level":"info","message":"GET /api/carts","timestamp":"2025-03-06T13:11:34.047Z"}
+{"level":"info","message":"POST /api/cart","timestamp":"2025-03-06T13:17:02.127Z"}
+{"level":"info","message":"GET /api/cart","timestamp":"2025-03-06T13:20:02.972Z"}
+{"level":"info","message":"Server running on port 3000","timestamp":"2025-03-06T13:21:34.207Z"}
+{"level":"info","message":"POST /api/auth/login","timestamp":"2025-03-06T13:21:55.588Z"}
+{"level":"info","message":"GET /api/cart","timestamp":"2025-03-06T13:22:39.668Z"}
+{"level":"info","message":"POST /api/cart","timestamp":"2025-03-06T13:24:11.806Z"}
+{"level":"info","message":"POST /api/cart/djd","timestamp":"2025-03-06T13:24:24.215Z"}
+{"level":"info","message":"Server running on port 3000","timestamp":"2025-03-06T13:26:15.265Z"}
+{"level":"info","message":"GET /api/cart","timestamp":"2025-03-06T13:26:23.678Z"}
+{"level":"info","message":"Server running on port 3000","timestamp":"2025-03-06T13:27:01.870Z"}
+{"level":"info","message":"Server running on port 3000","timestamp":"2025-03-06T13:28:50.830Z"}
+{"level":"info","message":"GET /api/cart","timestamp":"2025-03-06T13:30:31.055Z"}
+{"level":"info","message":"Server running on port 3000","timestamp":"2025-03-06T13:30:44.186Z"}
+{"level":"info","message":"POST /api/cart","timestamp":"2025-03-06T13:31:32.330Z"}
+{"level":"info","message":"POST /api/cart/djd","timestamp":"2025-03-06T13:32:04.996Z"}
+{"level":"info","message":"Server running on port 3000","timestamp":"2025-03-06T13:33:25.081Z"}
+{"level":"info","message":"GET /api/cart","timestamp":"2025-03-06T13:33:38.059Z"}
+{"level":"info","message":"Server running on port 3000","timestamp":"2025-03-06T13:40:38.204Z"}
+{"level":"info","message":"GET /api/cart","timestamp":"2025-03-06T13:40:45.771Z"}
+{"level":"info","message":"Server running on port 3000","timestamp":"2025-03-06T13:41:48.630Z"}
+{"level":"info","message":"GET /api/carts","timestamp":"2025-03-06T13:41:55.202Z"}
+{"level":"info","message":"Server running on port 3000","timestamp":"2025-03-06T13:43:52.688Z"}
+{"level":"info","message":"GET /api/cart","timestamp":"2025-03-06T13:43:56.732Z"}
+{"level":"info","message":"Server running on port 3000","timestamp":"2025-03-06T13:45:14.829Z"}
+{"level":"info","message":"GET /api/cart","timestamp":"2025-03-06T13:45:19.828Z"}
+{"level":"info","message":"POST /api/cart","timestamp":"2025-03-06T13:45:39.325Z"}
+{"level":"info","message":"POST /api/test","timestamp":"2025-03-06T13:46:14.232Z"}
+{"level":"info","message":"Server running on port 3000","timestamp":"2025-03-06T13:46:23.454Z"}
+{"level":"info","message":"POST /api/test","timestamp":"2025-03-06T13:46:26.840Z"}
+{"level":"info","message":"Server running on port 3000","timestamp":"2025-03-06T13:49:02.105Z"}
+{"level":"info","message":"POST /api/test","timestamp":"2025-03-06T13:49:12.521Z"}
+{"level":"info","message":"POST /api/test","timestamp":"2025-03-06T13:49:27.033Z"}
+{"level":"info","message":"GET /api/cart","timestamp":"2025-03-06T13:49:44.016Z"}
+{"level":"info","message":"Server running on port 3000","timestamp":"2025-03-06T13:52:10.408Z"}
+{"level":"info","message":"GET /api/cart","timestamp":"2025-03-06T13:52:23.986Z"}
+{"level":"error","message":"Error in CartService.getCartItems: Failed to fetch cart items: Could not find a relationship between 'cart' and 'coffees' in the schema cache","timestamp":"2025-03-06T13:52:26.878Z"}
+{"level":"error","message":"Failed to fetch cart items: Could not find a relationship between 'cart' and 'coffees' in the schema cache - Error: Failed to fetch cart items: Could not find a relationship between 'cart' and 'coffees' in the schema cache\n    at CartService.getCartItems (C:\\Users\\hp\\Documents\\C0D\\loffy-back\\src\\services\\cartService.js:24:15)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async CartController.getCart (C:\\Users\\hp\\Documents\\C0D\\loffy-back\\src\\controllers\\cartController.js:14:25)","timestamp":"2025-03-06T13:52:26.880Z"}
+{"level":"info","message":"POST /api/cart","timestamp":"2025-03-06T13:53:14.452Z"}
+{"level":"error","message":"Error in CartService.addToCart: Failed to check existing cart item: relation \"public.cart\" does not exist","timestamp":"2025-03-06T13:53:15.588Z"}
+{"level":"error","message":"Failed to check existing cart item: relation \"public.cart\" does not exist - Error: Failed to check existing cart item: relation \"public.cart\" does not exist\n    at CartService.addToCart (C:\\Users\\hp\\Documents\\C0D\\loffy-back\\src\\services\\cartService.js:54:15)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async CartController.addToCart (C:\\Users\\hp\\Documents\\C0D\\loffy-back\\src\\controllers\\cartController.js:38:24)","timestamp":"2025-03-06T13:53:15.590Z"}
+{"level":"info","message":"Server running on port 3000","timestamp":"2025-03-06T13:57:56.744Z"}
+{"level":"info","message":"GET /api/cart","timestamp":"2025-03-06T13:58:01.873Z"}
+{"level":"error","message":"Error in CartService.getCartItems: Failed to fetch cart items: \"failed to parse select parameter (cart.id,cart.quantity,coffees(id,name,price,imageurl,category))\" (line 1, column 6)","timestamp":"2025-03-06T13:58:05.021Z"}
+{"level":"error","message":"Failed to fetch cart items: \"failed to parse select parameter (cart.id,cart.quantity,coffees(id,name,price,imageurl,category))\" (line 1, column 6) - Error: Failed to fetch cart items: \"failed to parse select parameter (cart.id,cart.quantity,coffees(id,name,price,imageurl,category))\" (line 1, column 6)\n    at CartService.getCartItems (C:\\Users\\hp\\Documents\\C0D\\loffy-back\\src\\services\\cartService.js:25:15)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async CartController.getCart (C:\\Users\\hp\\Documents\\C0D\\loffy-back\\src\\controllers\\cartController.js:14:25)","timestamp":"2025-03-06T13:58:05.024Z"}
+{"level":"info","message":"GET /api/cart","timestamp":"2025-03-06T14:04:27.072Z"}
+{"level":"error","message":"Error in CartService.getCartItems: Failed to fetch cart items: \"failed to parse select parameter (cart.id,cart.quantity,coffees(id,name,price,imageurl,category))\" (line 1, column 6)","timestamp":"2025-03-06T14:04:28.636Z"}
+{"level":"error","message":"Failed to fetch cart items: \"failed to parse select parameter (cart.id,cart.quantity,coffees(id,name,price,imageurl,category))\" (line 1, column 6) - Error: Failed to fetch cart items: \"failed to parse select parameter (cart.id,cart.quantity,coffees(id,name,price,imageurl,category))\" (line 1, column 6)\n    at CartService.getCartItems (C:\\Users\\hp\\Documents\\C0D\\loffy-back\\src\\services\\cartService.js:25:15)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async CartController.getCart (C:\\Users\\hp\\Documents\\C0D\\loffy-back\\src\\controllers\\cartController.js:14:25)","timestamp":"2025-03-06T14:04:28.637Z"}
+{"level":"info","message":"POST /api/cart","timestamp":"2025-03-06T14:05:22.489Z"}
+{"level":"info","message":"Server running on port 3000","timestamp":"2025-03-06T14:08:15.405Z"}
+{"level":"info","message":"GET /api/cart","timestamp":"2025-03-06T14:08:25.241Z"}
+{"level":"error","message":"Error in CartService.getCartItems: supabase.from(...).select(...).eq(...).leftJoin is not a function","timestamp":"2025-03-06T14:08:25.248Z"}
+{"level":"error","message":"supabase.from(...).select(...).eq(...).leftJoin is not a function - TypeError: supabase.from(...).select(...).eq(...).leftJoin is not a function\n    at CartService.getCartItems (C:\\Users\\hp\\Documents\\C0D\\loffy-back\\src\\services\\cartService.js:20:10)\n    at CartController.getCart (C:\\Users\\hp\\Documents\\C0D\\loffy-back\\src\\controllers\\cartController.js:14:43)\n    at Layer.handle [as handle_request] (C:\\Users\\hp\\Documents\\C0D\\loffy-back\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at next (C:\\Users\\hp\\Documents\\C0D\\loffy-back\\node_modules\\express\\lib\\router\\route.js:149:13)\n    at authMiddleware (C:\\Users\\hp\\Documents\\C0D\\loffy-back\\src\\middleware\\authMiddleware.js:22:5)\n    at Layer.handle [as handle_request] (C:\\Users\\hp\\Documents\\C0D\\loffy-back\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at next (C:\\Users\\hp\\Documents\\C0D\\loffy-back\\node_modules\\express\\lib\\router\\route.js:149:13)\n    at Route.dispatch (C:\\Users\\hp\\Documents\\C0D\\loffy-back\\node_modules\\express\\lib\\router\\route.js:119:3)\n    at Layer.handle [as handle_request] (C:\\Users\\hp\\Documents\\C0D\\loffy-back\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at C:\\Users\\hp\\Documents\\C0D\\loffy-back\\node_modules\\express\\lib\\router\\index.js:284:15","timestamp":"2025-03-06T14:08:25.250Z"}
+{"level":"info","message":"Server running on port 3000","timestamp":"2025-03-06T14:09:41.399Z"}
+{"level":"info","message":"GET /api/cart","timestamp":"2025-03-06T14:09:45.129Z"}
+{"level":"info","message":"Server running on port 3000","timestamp":"2025-03-06T14:14:02.876Z"}
+{"level":"info","message":"GET /api/cart","timestamp":"2025-03-06T14:14:08.162Z"}
+{"level":"error","message":"Error in CartService.getCartItems: supabase.from(...).select(...).eq(...).leftJoin is not a function","timestamp":"2025-03-06T14:14:08.167Z"}
+{"level":"error","message":"supabase.from(...).select(...).eq(...).leftJoin is not a function - TypeError: supabase.from(...).select(...).eq(...).leftJoin is not a function\n    at CartService.getCartItems (C:\\Users\\hp\\Documents\\C0D\\loffy-back\\src\\services\\cartService.js:21:10)\n    at CartController.getCart (C:\\Users\\hp\\Documents\\C0D\\loffy-back\\src\\controllers\\cartController.js:14:43)\n    at Layer.handle [as handle_request] (C:\\Users\\hp\\Documents\\C0D\\loffy-back\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at next (C:\\Users\\hp\\Documents\\C0D\\loffy-back\\node_modules\\express\\lib\\router\\route.js:149:13)\n    at authMiddleware (C:\\Users\\hp\\Documents\\C0D\\loffy-back\\src\\middleware\\authMiddleware.js:22:5)\n    at Layer.handle [as handle_request] (C:\\Users\\hp\\Documents\\C0D\\loffy-back\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at next (C:\\Users\\hp\\Documents\\C0D\\loffy-back\\node_modules\\express\\lib\\router\\route.js:149:13)\n    at Route.dispatch (C:\\Users\\hp\\Documents\\C0D\\loffy-back\\node_modules\\express\\lib\\router\\route.js:119:3)\n    at Layer.handle [as handle_request] (C:\\Users\\hp\\Documents\\C0D\\loffy-back\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at C:\\Users\\hp\\Documents\\C0D\\loffy-back\\node_modules\\express\\lib\\router\\index.js:284:15","timestamp":"2025-03-06T14:14:08.169Z"}
+{"level":"info","message":"Server running on port 3000","timestamp":"2025-03-06T14:15:35.684Z"}
+{"level":"info","message":"GET /api/cart","timestamp":"2025-03-06T14:15:41.074Z"}
+{"level":"info","message":"POST /api/coffees","timestamp":"2025-03-06T14:16:23.738Z"}
+{"level":"error","message":"Error in authMiddleware: jwt expired","timestamp":"2025-03-06T14:16:23.741Z"}
+{"level":"info","message":"POST /api/cart","timestamp":"2025-03-06T14:16:52.166Z"}
+{"level":"info","message":"POST /api/cart/1","timestamp":"2025-03-06T14:21:39.203Z"}
+{"level":"info","message":"POST /api/cart/?id=1","timestamp":"2025-03-06T14:22:25.720Z"}
+{"level":"error","message":"Error in authMiddleware: jwt expired","timestamp":"2025-03-06T14:22:25.724Z"}
+{"level":"info","message":"POST /api/auth/login","timestamp":"2025-03-06T14:22:32.417Z"}
+{"level":"info","message":"POST /api/cart/?id=1","timestamp":"2025-03-06T14:23:14.075Z"}
+{"level":"info","message":"Server running on port 3000","timestamp":"2025-03-06T14:32:13.645Z"}
+{"level":"info","message":"POST /api/cart/?id=1","timestamp":"2025-03-06T14:32:21.250Z"}
+{"level":"info","message":"DELETE /api/cart/?id=1","timestamp":"2025-03-06T14:33:13.013Z"}
+{"level":"info","message":"DELETE /api/cart/1","timestamp":"2025-03-06T14:33:25.445Z"}
+{"level":"info","message":"DELETE /api/cart/1","timestamp":"2025-03-06T14:34:20.042Z"}
+{"level":"info","message":"Server running on port 3000","timestamp":"2025-03-06T14:39:16.583Z"}
+{"level":"info","message":"DELETE /api/cart/1","timestamp":"2025-03-06T14:39:37.195Z"}
+{"level":"error","message":"Error in CartService.removeFromCart: Cart item not found or you do not have permission to delete it","timestamp":"2025-03-06T14:39:38.151Z"}
+{"level":"error","message":"Cart item not found or you do not have permission to delete it - Error: Cart item not found or you do not have permission to delete it\n    at CartService.removeFromCart (C:\\Users\\hp\\Documents\\C0D\\loffy-back\\src\\services\\cartService.js:113:15)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async CartController.removeFromCart (C:\\Users\\hp\\Documents\\C0D\\loffy-back\\src\\controllers\\cartController.js:63:7)","timestamp":"2025-03-06T14:39:38.153Z"}
+{"level":"info","message":"GET /api/cart","timestamp":"2025-03-06T14:43:49.994Z"}
+{"level":"error","message":"Error in authMiddleware: jwt expired","timestamp":"2025-03-06T14:43:49.997Z"}
+{"level":"info","message":"POST /api/auth/login","timestamp":"2025-03-06T14:43:59.126Z"}
+{"level":"info","message":"GET /api/cart","timestamp":"2025-03-06T14:44:24.698Z"}
+{"level":"info","message":"POST /api/cart","timestamp":"2025-03-06T14:44:46.060Z"}
+{"level":"error","message":"Error in CartService.addToCart: Failed to add cart item: new row violates row-level security policy for table \"cart\"","timestamp":"2025-03-06T14:44:47.691Z"}
+{"level":"error","message":"Failed to add cart item: new row violates row-level security policy for table \"cart\" - Error: Failed to add cart item: new row violates row-level security policy for table \"cart\"\n    at CartService.addToCart (C:\\Users\\hp\\Documents\\C0D\\loffy-back\\src\\services\\cartService.js:85:17)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async CartController.addToCart (C:\\Users\\hp\\Documents\\C0D\\loffy-back\\src\\controllers\\cartController.js:36:24)","timestamp":"2025-03-06T14:44:47.692Z"}
+{"level":"info","message":"POST /api/cart","timestamp":"2025-03-06T14:45:33.931Z"}
+{"level":"error","message":"Error in CartService.addToCart: Failed to add cart item: new row violates row-level security policy for table \"cart\"","timestamp":"2025-03-06T14:45:35.211Z"}
+{"level":"error","message":"Failed to add cart item: new row violates row-level security policy for table \"cart\" - Error: Failed to add cart item: new row violates row-level security policy for table \"cart\"\n    at CartService.addToCart (C:\\Users\\hp\\Documents\\C0D\\loffy-back\\src\\services\\cartService.js:85:17)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async CartController.addToCart (C:\\Users\\hp\\Documents\\C0D\\loffy-back\\src\\controllers\\cartController.js:36:24)","timestamp":"2025-03-06T14:45:35.212Z"}
+{"level":"info","message":"POST /api/cart","timestamp":"2025-03-06T14:51:21.763Z"}
+{"level":"error","message":"Error in CartService.addToCart: Failed to add cart item: new row violates row-level security policy for table \"cart\"","timestamp":"2025-03-06T14:51:25.958Z"}
+{"level":"error","message":"Failed to add cart item: new row violates row-level security policy for table \"cart\" - Error: Failed to add cart item: new row violates row-level security policy for table \"cart\"\n    at CartService.addToCart (C:\\Users\\hp\\Documents\\C0D\\loffy-back\\src\\services\\cartService.js:85:17)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async CartController.addToCart (C:\\Users\\hp\\Documents\\C0D\\loffy-back\\src\\controllers\\cartController.js:36:24)","timestamp":"2025-03-06T14:51:25.959Z"}
+{"level":"info","message":"POST /api/cart","timestamp":"2025-03-06T14:53:36.236Z"}
+{"level":"info","message":"DELETE /api/cart/5","timestamp":"2025-03-06T14:54:12.854Z"}
+{"level":"info","message":"Server running on port 3000","timestamp":"2025-03-06T17:08:24.505Z"}
+{"level":"info","message":"POST /api/auth/login","timestamp":"2025-03-06T17:10:49.485Z"}
+{"level":"info","message":"GET /api/favorites","timestamp":"2025-03-06T17:12:20.141Z"}
+{"level":"info","message":"Server running on port 3000","timestamp":"2025-03-06T17:16:35.871Z"}
+{"level":"info","message":"GET /api/favorites","timestamp":"2025-03-06T17:17:01.439Z"}
+{"level":"info","message":"Server running on port 3000","timestamp":"2025-03-06T17:24:36.385Z"}
+{"level":"info","message":"GET /api/favorites","timestamp":"2025-03-06T17:24:40.737Z"}
+{"level":"error","message":"Error in FavoriteService.getFavoriteItems: Failed to fetch favorite items: Could not find a relationship between 'favorites' and 'coffees' in the schema cache","timestamp":"2025-03-06T17:24:41.726Z"}
+{"level":"error","message":"Failed to fetch favorite items: Could not find a relationship between 'favorites' and 'coffees' in the schema cache - Error: Failed to fetch favorite items: Could not find a relationship between 'favorites' and 'coffees' in the schema cache\n    at FavoriteService.getFavoriteItems (C:\\Users\\hp\\Documents\\C0D\\loffy-back\\src\\services\\favoriteService.js:17:15)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async FavoriteController.getFavorites (C:\\Users\\hp\\Documents\\C0D\\loffy-back\\src\\controllers\\favoriteController.js:13:29)","timestamp":"2025-03-06T17:24:41.727Z"}
+{"level":"info","message":"GET /api/favorites","timestamp":"2025-03-06T17:44:24.854Z"}
+{"level":"error","message":"Error in FavoriteService.getFavoriteItems: Failed to fetch favorite items: column favorites.user_id does not exist","timestamp":"2025-03-06T17:44:31.242Z"}
+{"level":"error","message":"Failed to fetch favorite items: column favorites.user_id does not exist - Error: Failed to fetch favorite items: column favorites.user_id does not exist\n    at FavoriteService.getFavoriteItems (C:\\Users\\hp\\Documents\\C0D\\loffy-back\\src\\services\\favoriteService.js:17:15)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async FavoriteController.getFavorites (C:\\Users\\hp\\Documents\\C0D\\loffy-back\\src\\controllers\\favoriteController.js:13:29)","timestamp":"2025-03-06T17:44:31.245Z"}
+{"level":"info","message":"Server running on port 3000","timestamp":"2025-03-06T17:47:45.644Z"}
+{"level":"info","message":"GET /api/favorites","timestamp":"2025-03-06T17:47:50.770Z"}
+{"level":"info","message":"POST /api/favorites","timestamp":"2025-03-06T17:49:33.849Z"}
+{"level":"error","message":"Error in FavoriteService.addToFavorites: Failed to add favorite item: Could not find the 'user_id' column of 'favorites' in the schema cache","timestamp":"2025-03-06T17:49:35.183Z"}
+{"level":"error","message":"Failed to add favorite item: Could not find the 'user_id' column of 'favorites' in the schema cache - Error: Failed to add favorite item: Could not find the 'user_id' column of 'favorites' in the schema cache\n    at FavoriteService.addToFavorites (C:\\Users\\hp\\Documents\\C0D\\loffy-back\\src\\services\\favoriteService.js:55:15)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async FavoriteController.addToFavorites (C:\\Users\\hp\\Documents\\C0D\\loffy-back\\src\\controllers\\favoriteController.js:36:28)","timestamp":"2025-03-06T17:49:35.187Z"}
+{"level":"info","message":"Server running on port 3000","timestamp":"2025-03-06T17:50:11.780Z"}
+{"level":"info","message":"POST /api/favorites","timestamp":"2025-03-06T17:50:17.085Z"}
+{"level":"error","message":"Error in FavoriteService.addToFavorites: Failed to add favorite item: null value in column \"coffeeid\" of relation \"favorites\" violates not-null constraint","timestamp":"2025-03-06T17:50:18.293Z"}
+{"level":"error","message":"Failed to add favorite item: null value in column \"coffeeid\" of relation \"favorites\" violates not-null constraint - Error: Failed to add favorite item: null value in column \"coffeeid\" of relation \"favorites\" violates not-null constraint\n    at FavoriteService.addToFavorites (C:\\Users\\hp\\Documents\\C0D\\loffy-back\\src\\services\\favoriteService.js:55:15)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async FavoriteController.addToFavorites (C:\\Users\\hp\\Documents\\C0D\\loffy-back\\src\\controllers\\favoriteController.js:36:28)","timestamp":"2025-03-06T17:50:18.297Z"}
+{"level":"info","message":"POST /api/favorites","timestamp":"2025-03-06T17:54:36.976Z"}
+{"level":"info","message":"DELETE /api/favorites/2","timestamp":"2025-03-06T17:57:15.299Z"}
+{"level":"info","message":"Server running on port 3000","timestamp":"2025-03-06T18:11:14.527Z"}
+{"level":"info","message":"Server running on port 3000","timestamp":"2025-03-06T18:11:53.468Z"}
+{"level":"info","message":"GET /api/orders","timestamp":"2025-03-06T18:13:40.635Z"}
+{"level":"error","message":"Error in authMiddleware: jwt expired","timestamp":"2025-03-06T18:13:40.646Z"}
+{"level":"info","message":"POST /api/auth/login","timestamp":"2025-03-06T18:13:52.087Z"}
+{"level":"info","message":"GET /api/orders","timestamp":"2025-03-06T18:14:15.922Z"}
+{"level":"info","message":"POST /api/orders","timestamp":"2025-03-06T18:18:05.088Z"}
+{"level":"info","message":"Server running on port 3000","timestamp":"2025-03-06T23:18:34.658Z"}
+{"level":"info","message":"POST /api/auth/login","timestamp":"2025-03-06T23:19:45.417Z"}
+{"level":"info","message":"GET /api/users/me","timestamp":"2025-03-06T23:20:17.079Z"}
+{"level":"info","message":"PUT /api/users/me","timestamp":"2025-03-06T23:23:55.264Z"}
+{"level":"info","message":"GET /api/users/me/profile-picture","timestamp":"2025-03-06T23:27:27.234Z"}
+{"level":"info","message":"POST /api/users/me/profile-picture","timestamp":"2025-03-06T23:28:17.912Z"}
+{"level":"info","message":"GET /api/users/change-password","timestamp":"2025-03-06T23:32:02.020Z"}
+{"level":"info","message":"POST /api/users/change-password","timestamp":"2025-03-06T23:32:13.716Z"}
+{"level":"info","message":"POST /api/users/forgot-password","timestamp":"2025-03-06T23:34:15.636Z"}
+{"level":"info","message":"Reset token for sora@example.com: b7f5cfd9-425a-42a4-82e9-9c38977fec10","timestamp":"2025-03-06T23:34:16.513Z"}
+{"level":"info","message":"POST /api/users/reset-password","timestamp":"2025-03-06T23:38:45.270Z"}
+{"level":"info","message":"POST /api/auth/login","timestamp":"2025-03-06T23:39:24.059Z"}
+{"level":"error","message":"Error in AuthService.login: Invalid email or password","timestamp":"2025-03-06T23:39:25.072Z"}
+{"level":"error","message":"Invalid email or password - Error: Invalid email or password\n    at AuthService.login (C:\\Users\\hp\\Documents\\C0D\\loffy-back\\src\\services\\authService.js:96:15)\n    at async login (C:\\Users\\hp\\Documents\\C0D\\loffy-back\\src\\controllers\\authController.js:55:31)","timestamp":"2025-03-06T23:39:25.073Z"}
+{"level":"info","message":"POST /api/auth/login","timestamp":"2025-03-06T23:39:34.419Z"}
+{"level":"info","message":"Server running on port 3000","timestamp":"2025-03-07T12:46:58.546Z"}
+{"level":"info","message":"POST /api/auth/register","timestamp":"2025-03-07T12:47:07.427Z"}
+{"level":"info","message":"POST /api/auth/login","timestamp":"2025-03-07T12:47:46.217Z"}
+{"level":"error","message":"Error in AuthService.login: Invalid email or password","timestamp":"2025-03-07T12:47:47.657Z"}
+{"level":"error","message":"Invalid email or password - Error: Invalid email or password\n    at AuthService.login (C:\\Users\\hp\\Documents\\C0D\\loffy-back\\src\\services\\authService.js:96:15)\n    at async login (C:\\Users\\hp\\Documents\\C0D\\loffy-back\\src\\controllers\\authController.js:55:31)","timestamp":"2025-03-07T12:47:47.660Z"}
+{"level":"info","message":"POST /api/auth/login","timestamp":"2025-03-07T12:47:54.998Z"}
+{"level":"info","message":"POST /api/cart","timestamp":"2025-03-07T12:51:54.622Z"}
+{"level":"info","message":"POST /api/orders","timestamp":"2025-03-07T12:52:32.856Z"}
+{"level":"error","message":"Error in OrderService.createOrder: Failed to create order: column reference \"id\" is ambiguous","timestamp":"2025-03-07T12:52:34.376Z"}
+{"level":"error","message":"Failed to create order: column reference \"id\" is ambiguous - Error: Failed to create order: column reference \"id\" is ambiguous\n    at OrderService.createOrder (C:\\Users\\hp\\Documents\\C0D\\loffy-back\\src\\services\\orderService.js:81:15)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async OrderController.createOrder (C:\\Users\\hp\\Documents\\C0D\\loffy-back\\src\\controllers\\orderController.js:28:21)","timestamp":"2025-03-07T12:52:34.378Z"}
+{"level":"info","message":"GET /api/orders","timestamp":"2025-03-07T12:53:49.480Z"}
+{"level":"info","message":"POST /api/orders","timestamp":"2025-03-07T12:54:04.162Z"}
+{"level":"error","message":"Error in OrderService.createOrder: Failed to create order: column reference \"id\" is ambiguous","timestamp":"2025-03-07T12:54:05.515Z"}
+{"level":"error","message":"Failed to create order: column reference \"id\" is ambiguous - Error: Failed to create order: column reference \"id\" is ambiguous\n    at OrderService.createOrder (C:\\Users\\hp\\Documents\\C0D\\loffy-back\\src\\services\\orderService.js:81:15)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async OrderController.createOrder (C:\\Users\\hp\\Documents\\C0D\\loffy-back\\src\\controllers\\orderController.js:28:21)","timestamp":"2025-03-07T12:54:05.518Z"}
+{"level":"info","message":"Server running on port 3000","timestamp":"2025-03-07T12:56:22.368Z"}
+{"level":"info","message":"POST /api/orders","timestamp":"2025-03-07T12:56:30.114Z"}
+{"level":"error","message":"Error in OrderService.createOrder: Failed to create order: column reference \"id\" is ambiguous","timestamp":"2025-03-07T12:56:31.949Z"}
+{"level":"error","message":"Failed to create order: column reference \"id\" is ambiguous - Error: Failed to create order: column reference \"id\" is ambiguous\n    at OrderService.createOrder (C:\\Users\\hp\\Documents\\C0D\\loffy-back\\src\\services\\orderService.js:81:15)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async OrderController.createOrder (C:\\Users\\hp\\Documents\\C0D\\loffy-back\\src\\controllers\\orderController.js:28:21)","timestamp":"2025-03-07T12:56:31.953Z"}
+{"level":"info","message":"POST /api/orders","timestamp":"2025-03-07T12:56:52.493Z"}
+{"level":"info","message":"GET /api/orders","timestamp":"2025-03-07T12:57:50.894Z"}
+{"level":"info","message":"Server running on port 3000","timestamp":"2025-03-07T13:12:41.462Z"}
+{"level":"info","message":"POST /api/auth/login","timestamp":"2025-03-07T13:12:45.339Z"}
+{"level":"info","message":"POST /api/auth/login","timestamp":"2025-03-07T13:25:00.702Z"}
+{"level":"info","message":"POST /api/auth/login","timestamp":"2025-03-07T13:47:46.414Z"}
+{"level":"info","message":"POST /api/auth/login","timestamp":"2025-03-07T14:03:51.848Z"}
+{"level":"info","message":"POST /api/auth/login","timestamp":"2025-03-07T14:05:40.707Z"}
+{"level":"info","message":"POST /api/auth/login","timestamp":"2025-03-07T14:06:20.731Z"}
+{"level":"error","message":"Error in AuthService.login: Invalid email or password","timestamp":"2025-03-07T14:06:21.879Z"}
+{"level":"error","message":"Invalid email or password - Error: Invalid email or password\n    at AuthService.login (C:\\Users\\hp\\Documents\\C0D\\loffy-back\\src\\services\\authService.js:91:15)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async login (C:\\Users\\hp\\Documents\\C0D\\loffy-back\\src\\controllers\\authController.js:55:31)","timestamp":"2025-03-07T14:06:21.881Z"}
+{"level":"info","message":"POST /api/auth/login","timestamp":"2025-03-07T14:06:48.743Z"}
+{"level":"info","message":"POST /api/auth/login","timestamp":"2025-03-07T14:12:30.287Z"}
+{"level":"info","message":"POST /api/auth/login","timestamp":"2025-03-07T14:19:02.545Z"}
+{"level":"info","message":"POST /api/auth/login","timestamp":"2025-03-07T14:38:24.050Z"}
+{"level":"info","message":"POST /api/auth/login","timestamp":"2025-03-07T14:47:05.485Z"}
+{"level":"info","message":"POST /api/auth/login","timestamp":"2025-03-07T15:17:35.244Z"}
+{"level":"info","message":"POST /api/coffees","timestamp":"2025-03-07T15:18:30.270Z"}
+{"level":"info","message":"POST /api/auth/login","timestamp":"2025-03-07T15:25:31.824Z"}
+{"level":"info","message":"POST /api/coffees","timestamp":"2025-03-07T15:26:38.811Z"}
+{"level":"info","message":"Uploading file to coffees/1741361198814.jpg, buffer size: 21370 bytes, MIME type: image/jpeg","timestamp":"2025-03-07T15:26:38.814Z"}
+{"level":"info","message":"POST /api/auth/login","timestamp":"2025-03-07T15:43:34.109Z"}
+{"level":"error","message":"Error in AuthService.login: Invalid email or password","timestamp":"2025-03-07T15:43:44.127Z"}
+{"level":"error","message":"Invalid email or password - Error: Invalid email or password\n    at AuthService.login (C:\\Users\\hp\\Documents\\C0D\\loffy-back\\src\\services\\authService.js:91:15)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async login (C:\\Users\\hp\\Documents\\C0D\\loffy-back\\src\\controllers\\authController.js:55:31)","timestamp":"2025-03-07T15:43:44.129Z"}
+{"level":"info","message":"POST /api/auth/login","timestamp":"2025-03-07T15:44:09.289Z"}
+{"level":"error","message":"Error in AuthService.login: Invalid email or password","timestamp":"2025-03-07T15:44:19.302Z"}
+{"level":"error","message":"Invalid email or password - Error: Invalid email or password\n    at AuthService.login (C:\\Users\\hp\\Documents\\C0D\\loffy-back\\src\\services\\authService.js:91:15)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async login (C:\\Users\\hp\\Documents\\C0D\\loffy-back\\src\\controllers\\authController.js:55:31)","timestamp":"2025-03-07T15:44:19.304Z"}
+{"level":"info","message":"POST /api/auth/login","timestamp":"2025-03-07T15:44:34.342Z"}
+{"level":"error","message":"Error in AuthService.login: Invalid email or password","timestamp":"2025-03-07T15:44:44.353Z"}
+{"level":"error","message":"Invalid email or password - Error: Invalid email or password\n    at AuthService.login (C:\\Users\\hp\\Documents\\C0D\\loffy-back\\src\\services\\authService.js:91:15)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async login (C:\\Users\\hp\\Documents\\C0D\\loffy-back\\src\\controllers\\authController.js:55:31)","timestamp":"2025-03-07T15:44:44.354Z"}
+{"level":"error","message":"Failed to start server due to database error: Failed to connect to the database: TypeError: fetch failed","timestamp":"2025-03-07T15:45:33.672Z"}
+{"level":"error","message":"Failed to start server due to database error: Failed to connect to the database: TypeError: fetch failed","timestamp":"2025-03-07T15:45:53.881Z"}
+{"level":"error","message":"Failed to start server due to database error: Failed to connect to the database: TypeError: fetch failed","timestamp":"2025-03-07T15:56:11.637Z"}
+{"level":"info","message":"Server running on port 3001","timestamp":"2025-03-07T16:10:14.470Z"}
+{"level":"info","message":"POST /api/auth/login","timestamp":"2025-03-07T16:12:40.242Z"}
+{"level":"info","message":"POST /api/coffees","timestamp":"2025-03-07T16:13:27.590Z"}
+{"level":"info","message":"Uploading file to coffees/1741364007603.jpg, buffer size: 21370 bytes, MIME type: image/jpeg","timestamp":"2025-03-07T16:13:27.603Z"}
+{"level":"info","message":"POST /api/auth/login","timestamp":"2025-03-07T16:14:04.306Z"}
+{"level":"error","message":"Error in AuthService.login: Invalid email or password","timestamp":"2025-03-07T16:14:05.285Z"}
+{"level":"error","message":"Invalid email or password - Error: Invalid email or password\n    at AuthService.login (C:\\Users\\hp\\Documents\\C0D\\loffy-back\\src\\services\\authService.js:91:15)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async login (C:\\Users\\hp\\Documents\\C0D\\loffy-back\\src\\controllers\\authController.js:55:31)","timestamp":"2025-03-07T16:14:05.286Z"}
+{"level":"info","message":"POST /api/auth/login","timestamp":"2025-03-07T16:14:27.919Z"}
+{"level":"info","message":"PATCH /api/coffees/5","timestamp":"2025-03-07T16:15:55.434Z"}
+{"level":"info","message":"POST /api/auth/login","timestamp":"2025-03-07T16:18:54.474Z"}
+{"level":"info","message":"DELETE /api/coffees/5","timestamp":"2025-03-07T16:19:02.329Z"}
+{"level":"info","message":"POST /api/auth/login","timestamp":"2025-03-07T16:19:34.232Z"}
+{"level":"info","message":"DELETE /api/coffees/3","timestamp":"2025-03-07T16:19:43.160Z"}
+{"level":"info","message":"POST /api/auth/login","timestamp":"2025-03-07T16:20:22.692Z"}
+{"level":"info","message":"DELETE /api/coffees/3","timestamp":"2025-03-07T16:20:27.736Z"}
+{"level":"info","message":"POST /api/auth/login","timestamp":"2025-03-07T16:20:56.191Z"}
+{"level":"info","message":"DELETE /api/coffees/4","timestamp":"2025-03-07T16:21:00.888Z"}
