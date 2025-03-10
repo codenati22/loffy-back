@@ -22,14 +22,12 @@ if (!supabaseUrl || !supabaseAnonKey) {
   process.exit(1);
 }
 
-// Initialize Supabase client
 const supabase = createClient(supabaseUrl, supabaseAnonKey);
 
 program
   .version("1.0.0")
   .description("Coffee Shop Admin CLI for managing coffee items");
 
-// Add coffee command (unchanged)
 program
   .command("add-coffee")
   .description("Add a new coffee item")
@@ -80,7 +78,7 @@ program
       let loginResponse;
       try {
         loginResponse = await axios.post(
-          "http://localhost:3001/api/auth/login",
+          "https://loffy.onrender.com/api/auth/login",
           { email, password },
           { headers: { "Content-Type": "application/json" } }
         );
@@ -164,7 +162,7 @@ program
       formData.append("image", fs.createReadStream(imagePath));
 
       const coffeesResponse = await axios.post(
-        "http://localhost:3001/api/coffees",
+        "https://loffy.onrender.com/api/coffees",
         formData,
         {
           headers: {
@@ -191,7 +189,6 @@ program
     }
   });
 
-// Update coffee command
 program
   .command("update-coffee")
   .description("Update an existing coffee item")
@@ -242,7 +239,7 @@ program
       let loginResponse;
       try {
         loginResponse = await axios.post(
-          "http://localhost:3001/api/auth/login",
+          "https://loffy.onrender.com/api/auth/login",
           { email, password },
           { headers: { "Content-Type": "application/json" } }
         );
@@ -338,7 +335,7 @@ program
       if (imagePath) formData.append("image", fs.createReadStream(imagePath));
 
       const coffeesResponse = await axios.patch(
-        `http://localhost:3001/api/coffees/${id}`,
+        `https://loffy.onrender.com/api/coffees/${id}`,
         formData,
         {
           headers: {
@@ -368,7 +365,6 @@ program
     }
   });
 
-// Delete coffee command
 program
   .command("delete-coffee")
   .description("Delete an existing coffee item")
@@ -419,7 +415,7 @@ program
       let loginResponse;
       try {
         loginResponse = await axios.post(
-          "http://localhost:3001/api/auth/login",
+          "https://loffy.onrender.com/api/auth/login",
           { email, password },
           { headers: { "Content-Type": "application/json" } }
         );
@@ -462,7 +458,7 @@ program
       ]);
 
       const coffeesResponse = await axios.delete(
-        `http://localhost:3001/api/coffees/${id}`,
+        `https://loffy.onrender.com/api/coffees/${id}`,
         {
           headers: {
             Authorization: `Bearer ${token}`,
