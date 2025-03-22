@@ -21,6 +21,7 @@ class CoffeeService {
         category: coffee.category,
         created_at: coffee.created_at,
         updated_at: coffee.updated_at,
+        description: coffee.description,
       }));
 
       return mappedCoffees;
@@ -30,7 +31,15 @@ class CoffeeService {
     }
   }
 
-  async createCoffee(supabase, name, price, rating, category, imageFile) {
+  async createCoffee(
+    supabase,
+    name,
+    price,
+    rating,
+    description,
+    category,
+    imageFile
+  ) {
     try {
       const timestamp = Date.now();
       const originalName = imageFile.originalname || "image";
@@ -61,6 +70,7 @@ class CoffeeService {
             rating,
             imageurl: imageUrl,
             category,
+            description,
           },
         ])
         .select()
@@ -79,6 +89,7 @@ class CoffeeService {
         category: coffee.category,
         created_at: coffee.created_at,
         updated_at: coffee.updated_at,
+        description: coffee.description,
       };
 
       return mappedCoffee;
@@ -88,7 +99,16 @@ class CoffeeService {
     }
   }
 
-  async updateCoffee(supabase, id, name, price, rating, category, imageFile) {
+  async updateCoffee(
+    supabase,
+    id,
+    name,
+    price,
+    description,
+    rating,
+    category,
+    imageFile
+  ) {
     try {
       const { data: existingCoffee, error: fetchError } = await supabase
         .from("coffees")
@@ -105,6 +125,7 @@ class CoffeeService {
       if (price !== undefined) updates.price = price;
       if (rating !== undefined) updates.rating = rating;
       if (category !== undefined) updates.category = category;
+      if (description !== undefined) updates.description = description;
 
       let imageUrl = existingCoffee.imageurl;
       if (imageFile) {
@@ -142,6 +163,7 @@ class CoffeeService {
         category: updatedCoffee.category,
         created_at: updatedCoffee.created_at,
         updated_at: updatedCoffee.updated_at,
+        description: updatedCoffee.description,
       };
     } catch (error) {
       logger.error(`Error in CoffeeService.updateCoffee: ${error.message}`);

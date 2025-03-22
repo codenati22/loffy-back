@@ -26,10 +26,17 @@ class CoffeeController {
 
   async createCoffee(req, res, next) {
     try {
-      const { name, price, rating, category } = req.body;
+      const { name, price, rating, category, description } = req.body;
       const imageFile = req.file;
 
-      if (!name || !price || !rating || !category || !imageFile) {
+      if (
+        !name ||
+        !price ||
+        !rating ||
+        !category ||
+        !description ||
+        !imageFile
+      ) {
         return res.status(400).json({
           success: false,
           message: "Name, price, rating, category, and image are required",
@@ -42,6 +49,7 @@ class CoffeeController {
         parseFloat(price),
         parseFloat(rating),
         category,
+        description,
         imageFile
       );
 
@@ -58,7 +66,7 @@ class CoffeeController {
   async updateCoffee(req, res, next) {
     try {
       const { id } = req.params;
-      const { name, price, rating, category } = req.body;
+      const { name, price, rating, category, description } = req.body;
       const imageFile = req.file;
 
       if (!id || isNaN(parseInt(id))) {
@@ -75,6 +83,7 @@ class CoffeeController {
         price ? parseFloat(price) : undefined,
         rating ? parseFloat(rating) : undefined,
         category || undefined,
+        description || undefined,
         imageFile
       );
 
