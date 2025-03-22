@@ -34,7 +34,7 @@ class CoffeeController {
         !price ||
         !rating ||
         !category ||
-        !description ||
+        description ||
         !imageFile
       ) {
         return res.status(400).json({
