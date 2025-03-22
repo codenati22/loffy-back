@@ -2,11 +2,23 @@ const logger = require("../utils/logger");
 const storageService = require("./storageService");
 
 class CoffeeService {
-  async getAllCoffees(supabase) {
+  async getAllCoffees(supabase, page = 1, limit = 10) {
     try {
+      const from = (page - 1) * limit;
+      const to = from + limit - 1;
+
+      const { count, error: countError } = await supabase
+        .from("coffees")
+        .select("*", { count: "exact", head: true });
+
+      if (countError) {
+        throw new Error(`Failed to fetch coffee count: ${countError.message}`);
+      }
+
       const { data: coffees, error } = await supabase
         .from("coffees")
-        .select("*");
+        .select("*")
+        .range(from, to);
 
       if (error) {
         throw new Error(`Failed to fetch coffees: ${error.message}`);
@@ -24,7 +36,13 @@ class CoffeeService {
         description: coffee.description,
       }));
 
-      return mappedCoffees;
+      return {
+        coffees: mappedCoffees,
+        total: count || 0,
+        page,
+        limit,
+        totalPages: Math.ceil(count / limit),
+      };
     } catch (error) {
       logger.error(`Error in CoffeeService.getAllCoffees: ${error.message}`);
       throw error;

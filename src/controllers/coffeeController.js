@@ -13,10 +13,31 @@ class CoffeeController {
 
   async getAllCoffees(req, res, next) {
     try {
-      const coffees = await coffeeService.getAllCoffees(req.supabase);
+      const page = parseInt(req.query.page) || 1;
+      const limit = parseInt(req.query.limit) || 10;
+
+      if (page < 1 || limit < 1) {
+        return res.status(400).json({
+          success: false,
+          message: "Page and limit must be positive integers",
+        });
+      }
+
+      const result = await coffeeService.getAllCoffees(
+        req.supabase,
+        page,
+        limit
+      );
+
       res.status(200).json({
         success: true,
-        data: coffees,
+        data: result.coffees,
+        pagination: {
+          total: result.total,
+          page: result.page,
+          limit: result.limit,
+          totalPages: result.totalPages,
+        },
       });
     } catch (error) {
       error.statusCode = 400;
