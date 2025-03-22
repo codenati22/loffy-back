@@ -54,8 +54,8 @@ class CoffeeService {
     name,
     price,
     rating,
-    description,
     category,
+    description,
     imageFile
   ) {
     try {
@@ -122,9 +122,9 @@ class CoffeeService {
     id,
     name,
     price,
-    description,
     rating,
     category,
+    description,
     imageFile
   ) {
     try {
