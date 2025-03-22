@@ -33,7 +33,7 @@ class CoffeeService {
         category: coffee.category,
         created_at: coffee.created_at,
         updated_at: coffee.updated_at,
-        description: coffee.description,
+        description: coffee.description?.trim() || null,
       }));
 
       return {
