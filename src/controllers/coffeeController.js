@@ -29,14 +29,7 @@ class CoffeeController {
       const { name, price, rating, category, description } = req.body;
       const imageFile = req.file;
 
-      if (
-        !name ||
-        !price ||
-        !rating ||
-        !category ||
-        description ||
-        !imageFile
-      ) {
+      if (!name || !price || !rating || !category || !imageFile) {
         return res.status(400).json({
           success: false,
           message: "Name, price, rating, category, and image are required",
